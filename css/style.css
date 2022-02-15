@@ -3,4 +3,56 @@
   padding: 0;
 }
 
+body {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.container {
+  margin: auto;
+  padding: 16px;
+  width: min(960px, 100%);
+}
+
+.large-text {
+  font-size: 32px;
+}
+
+.medium-text {
+  font-size: 24px;
+}
+
+.small-text {
+  font-size: 16px;
+}
+
+.primary-large-text {
+  color: #55c500;
+  font-size: 32px;
+}
+
+.primary-medium-text {
+  color: #55c500;
+  font-size: 24px;
+}
+
+.primary-small-text {
+  color: #55c500;
+  font-size: 16px;
+}
+
+.secondary-large-text {
+  color: #4097db;
+  font-size: 32px;
+}
+
+.secondary-medium-text {
+  color: #4097db;
+  font-size: 24px;
+}
+
+.secondary-small-text {
+  color: #4097db;
+  font-size: 16px;
+}
+
 /*# sourceMappingURL=style.css.map */

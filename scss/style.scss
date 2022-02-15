@@ -1,4 +1,63 @@
+$text-color: rgba(0 0 0 / 0.87);
+$primary-color: #55c500;
+$secondary-color: #4097db;
+$font-size-l: 32px;
+$font-size-m: 24px;
+$font-size-s: 16px;
+
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  color: $text-color;
+}
+
+.container {
+  margin: auto;
+  padding: 16px;
+  width: min(960px, 100%);
+}
+
+.large-text {
+  font-size: $font-size-l;
+}
+
+.medium-text {
+  font-size: $font-size-m;
+}
+
+.small-text {
+  font-size: $font-size-s;
+}
+
+.primary-large-text {
+  color: $primary-color;
+  font-size: $font-size-l;
+}
+
+.primary-medium-text {
+  color: $primary-color;
+  font-size: $font-size-m;
+}
+
+.primary-small-text {
+  color: $primary-color;
+  font-size: $font-size-s;
+}
+
+.secondary-large-text {
+  color: $secondary-color;
+  font-size: $font-size-l;
+}
+
+.secondary-medium-text {
+  color: $secondary-color;
+  font-size: $font-size-m;
+}
+
+.secondary-small-text {
+  color: $secondary-color;
+  font-size: $font-size-s;
 }
